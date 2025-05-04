@@ -28,8 +28,15 @@ span {
   gap: 1.2rem;
 }
 
-/*-----------------COMPONENTS-----------------*/
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
 
+/*-----------------COMPONENTS-----------------*/
+/*Button*/
 .btn {
   font-size: var(--text-base);
   padding: 1.5rem 3rem;
@@ -81,4 +88,41 @@ span {
 .btn-large {
   padding: 2rem 1rem;
   font-size: 2rem;
+}
+
+/*Card*/
+
+.card-style {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  max-width: 400px;
+  padding: 2rem 1.5rem;
+  background-color: var(--grey-base);
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.2s ease, box-shadow 0.2s ease; 
+}
+
+.card-style:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+.card-title {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card-content {
+  margin: 0.5rem 0;
+  text-align: center;
+}
+
+.card-footer {
+  margin-top: 1rem;
 }
