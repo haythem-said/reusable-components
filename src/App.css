@@ -10,7 +10,7 @@
   --secondary-base: #9775fa;
   --secondary-shade: #7048e8;
 }
-
+/* MISCELLANEOUS */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -19,6 +19,13 @@
 
 html {
   font-size: 62.5%;
+}
+
+span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
 }
 
 /*-----------------COMPONENTS-----------------*/
@@ -75,4 +82,3 @@ html {
   padding: 2rem 1rem;
   font-size: 2rem;
 }
-

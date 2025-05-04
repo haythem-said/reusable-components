@@ -49,7 +49,6 @@ const ReusableButton: React.FC<ButtonProps> = ({
     ${getSizeStyles()}
   `;
 
-
   return (
     <button
       className={buttonClasses}
@@ -57,8 +56,8 @@ const ReusableButton: React.FC<ButtonProps> = ({
       onClick={onClick}
       type="button"
     >
-      <span className="flex items-center justify-center">
-        {icon && <span className="mr-2">{icon}</span>}
+      <span>
+        {icon && <span>{icon}</span>}
         {text}
       </span>
     </button>
